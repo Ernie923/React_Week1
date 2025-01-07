@@ -113,7 +113,7 @@
 									<h5 className="card-title">更多圖片:</h5>
 									<div className="d-flex">
 										{product.imagesUrl && product.imagesUrl.map((image, index) => {
-										return <img className="img-fluid w-50" src={image} key={index} />
+										return <img className="img-fluid w-50 object-fit-cover" src={image} key={index} />
 									})}
 									</div>
 								</div>
